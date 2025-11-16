@@ -1,1 +1,23 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.gz
+*.fdb_latexmk
+*.fls
 
+# Intermediate PDFs
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
