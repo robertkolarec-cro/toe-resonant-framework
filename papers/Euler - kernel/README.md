@@ -21,7 +21,8 @@ This same αΦ governs the damping structure of the Φ–Fourier transform, the 
 
 * Citation
 
-Kolarec, R. (2025). Euler Number e as the Exponential Kernel of the Golden Ratio Spiral (Version 1.0 (November 2025)).
+Kolarec, R. (2025). Euler Number e as the Exponential Kernel of the Golden Ratio Spiral (Version 1.0
+(November 2025)).
 Zenodo. DOI: 10.5281/zenodo.17561612, https://doi.org/10.5281/zenodo.17561612
 
 Folder is part of the "Φ–Resonant Theory of Everything", and follows the standard structure used for all scientific manuscripts in this repository.
