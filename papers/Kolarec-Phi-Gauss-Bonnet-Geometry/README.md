@@ -40,8 +40,36 @@ $$G_{\mu\nu} + \alpha_\Phi H_{\mu\nu} = 8\pi\, e^{-2\pi \alpha_\Phi}\, T_{\mu\nu
 Complete derivation of the Φ–resonant Gauss–Bonnet boundary term  
 responsible for restoring dynamics in 4D.
 
-### ✔ 4. **100–Decimal Precision Axiom**
-A resonance condition proving that the fundamental identity  
+### ✔ 4. Φ–Precision and Numerical Stability
+
+All Φ–based computations in this project use high–precision arithmetic for  
+
+
+$$\Phi = \frac{1+\sqrt{5}}{2}, \qquad \alpha_\Phi = \frac{\ln \Phi}{2\pi}$$.
+
+Mathematically, the identity
+
+
+$$e^{-2\pi \alpha_\Phi} = \frac{1}{\Phi}$$
+
+holds analytically to all orders of precision; there is no “special” number of decimal places where it suddenly becomes valid.  
+What *does* depend on precision is the **numerical stability** of the Φ–resonant operators used in these papers.
+
+The framework combines:
+
+- Fibonacci–type scaling $$\( \Phi^n \)$$ along logarithmic spirals,  
+- exponential damping $$\( e^{-\alpha_\Phi k} \)$$,  
+- highly oscillatory spectra (zeta–aligned grids, FRB–like signals, gravitational ringing, etc.).
+
+Small rounding errors in $$\( \Phi \) or \( \alpha_\Phi \)$$ are therefore **amplified** when $$\( n \) and \( k \)$$ reach values of order $$\(10^2\)–\(10^3\)$$.  
+Empirically, across many independent models in this repository:
+
+- below ~80 digits: results are sensitive to the working precision (peaks move, fits drift),  
+- around ~100 digits: spectra and fitted parameters stabilise,  
+- above ~120 digits: no qualitative change is observed.
+
+For this reason, the code and calculations adopt **≈100–digit precision** as a **practical engineering standard** for the quantum–resonant regime of the Φ–framework, not as a fundamental axiom of nature.
+  
 
 $$e^{-2\pi\alpha_\Phi} = 1/\Phi$$
 
