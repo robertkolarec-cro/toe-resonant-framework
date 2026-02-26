@@ -2,44 +2,43 @@
 
 Unified Framework by Robert Kolarec
 
-This repository contains my complete Φ–resonant framework — a unified formulation that connects mathematics, physics, thermodynamics, geometry, quantum mechanics, astrophysics, and information structures through a single resonant identity based on the golden ratio Φ and the damping constant
+This repository contains my complete Φ-resonant framework, a unified formulation that connects mathematics, physics, thermodynamics, geometry, quantum mechanics, astrophysics, and information structures through a single resonant identity based on the golden ratio Φ and the damping constant
 
-\alpha_\Phi = \frac{\ln(\Phi)}{2\pi}.
+$$\alpha_\Phi = \frac{\ln(\Phi)}{2\pi}$$.
 
-All scientific work is written in the first-person style (“I”), following the requirements of professional publishing and repository standards.
-
+All scientific work is written in following requirements of professional publishing and repository standards.
 
 Purpose of the Project
 
 My goal is to construct a coherent and testable framework that unifies multiple scientific disciplines through resonant structures, spiral symmetry, and quantization patterns observed in nature.
 I aim to:
 
-identify universal mathematical invariants,
+• identify universal mathematical invariants,
 
-integrate them into physical laws,
+• integrate them into physical laws,
 
-explore resonant operators and damping functions,
+• explore resonant operators and damping functions,
 
-derive unifying constants,
+• derive unifying constants,
 
-connect micro- and macro-scale phenomena,
+• connect micro and macro-scale phenomena,
 
-and provide transparent, reproducible scientific reasoning.
-
+• provide transparent, reproducible scientific reasoning.
 
 This repository hosts all manuscripts, simulations, constants, and supporting materials for this long-term research effort.
 
 
-Repository Structure
+Repository Structure:
 
 toe-resonant-framework/
 │
-├── papers/          → my scientific manuscripts (LaTeX and PDFs)
+├── papers/ → my scientific manuscripts (LaTeX and PDFs)
 │
 ├── code/
-│   ├── python/      → operators, simulations, data tools
-│   ├── latex/       → LaTeX builds and macros
-│   └── simulations/ → physical, quantum, and cosmic models
+│   ├── python/ → operators, simulations, data tools
+|   |--- julia/  → operators, simulations, data tools
+│   ├── latex/   → LaTeX builds and macros
+│   └── simulations/ → mathematical, physical, quantum, chemical, biology, cosmic models
 │
 ├── data/
 │   ├── constants/   → 100-decimal Φ, αΦ, and numerical sets
@@ -48,11 +47,11 @@ toe-resonant-framework/
 │
 └── docs/            → outlines, notes, reference materials
 
-This structure follows scientific repository standards used at MIT, CERN, ESA, and NASA.
+This structure foll ows scientific repository standards used at MIT, CERN, ESA, and NASA.
 
 Ethical Statement
 
-I recognize that the theoretical structures in this repository — resonant operators, damping frameworks, quantization laws, and cosmological implications — may have profound scientific consequences.
+I recognize that the theoretical structures in this repository - resonant operators, damping frameworks, quantization laws, and cosmological implications - may have profound scientific consequences.
 For that reason, I commit to the following ethical principles:
 
 1. Knowledge must protect life.
