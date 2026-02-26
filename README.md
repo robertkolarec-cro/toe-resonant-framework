@@ -126,6 +126,7 @@ Robert Kolarec
 Independent Researcher
 Zagreb, Croatia, EU
 Professional Study of Computer Science
+https://orcid.org/0009-0007-6634-5406
 
 I am committed to responsible scientific exploration and open, ethical knowledge sharing.
 
